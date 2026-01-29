@@ -1,4 +1,5 @@
 *.yml linguist-detectable
 *.md linguist-detectable
+*.nbt linguist-detectable
 .github/* -linguist-detectable
 .idea/* -linguist-detectable
