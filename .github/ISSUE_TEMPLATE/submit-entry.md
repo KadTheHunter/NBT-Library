@@ -2,7 +2,7 @@
 name: Submit Entry
 about: Submit an entry to the NBT Library
 title: "[New Entry] "
-labels: ''
+labels: New Entry
 assignees: KadTheHunter
 
 ---
