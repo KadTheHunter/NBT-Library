@@ -30,7 +30,7 @@ By default, the Library is immutable, meaning you cannot add or remove entries w
 
 Users with [Better Saved Hotbars](https://modrinth.com/mod/better-saved-hotbars) installed should be wary of accidental modification of Library pages; Default BSH settings will **remove** entries on Middle click, and **add** entries when an item is Left or Right-clicked on an empty slot.
 
-Support will **not** be provided for using the NBT Library and its associated files/components outside the instructions detailed in [Installation](#installation), and intended usage in creative mode single or multi-player. Any such issues or requests (i.e. "How to use this in survival" or "Bedrock support?) will be immediately closed, locked and ignored.
+Support will **not** be provided for using the NBT Library and its associated files/components outside the instructions detailed in [Installation](#installation), and intended usage in creative mode single or multi-player. Any such issues or requests (i.e. "How to use this in survival" or "Bedrock support?") will be immediately closed, locked and ignored.
 
 ## Categories
 The NBT Library is currently divided into 9 categories:
@@ -76,7 +76,7 @@ Contributions to the NBT Library are welcome!
 
 ## Entries
 To contribute entries to the NBT Library, please do one of the following:
-- Open an issue here using the [Submit Entry]() Template
+- Open an issue here using the [Submit Entry](https://github.com/KadTheHunter/NBT-Library/issues/new/choose) Template
 - Post your entry in the [Discord](https://discord.com/invite/cfq25qURfv) Server, `#new-items` channel
 - DM your entry to `@kaddicus` on [Discord](https://discord.com/invite/cfq25qURfv)
 
@@ -84,7 +84,7 @@ Please only do *one* of these! Creating duplicate submissions will vastly reduce
 
 ## Bugfixes, Changes, Recategorization, etc.
 To contribute to the NBT Library in other ways, i.e. bugfixes, title changes, recategorizing entries, improving this README, etc., please do one of the following:
-- Open an issue here using the [Other Contribution]() Template
+- Open an issue here using the [Other Contribution](https://github.com/KadTheHunter/NBT-Library/issues/new/choose) Template
 - Make a post on the [Discord](https://discord.com/invite/cfq25qURfv), `#library-discussion` forum
 - DM your contribution to `@kaddicus` on [Discord](https://discord.com/invite/cfq25qURfv)
 
