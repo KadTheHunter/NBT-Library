@@ -12,14 +12,14 @@ Please note that the NBT Library is for **Java Edition**. It will **not** work o
 
 ## With Librarian Mod
 1. Download the NBT Library from [Releases](https://github.com/KadTheHunter/NBT-Library/releases)
-2. Copy and Extract the `NBT-Library-vX.X.X.zip` file to `.minecraft/hotbars/`
+2. Extract the `NBT-Library-X.X.X.zip` file, then move the contents of the `NBT-Library-X.X.X` folder to `.minecraft/hotbars/`
 3. If done correctly, you should see a number of new files, named `hotbar.-1.nbt`, `hotbar.-2.nbt`, etc.
-   1. If you're *not* using Librarian, please jump to step 2 of [Without Librarian](#without-librarian-mod)
+   1. If you're *not* using Librarian, please jump to step 2 of [Without Librarian Mod](#without-librarian-mod)
 4. Launch Minecraft *or* run `/lb cache clear`
 5. Open the Hotbars tab of the Creative Inventory, and use the arrow buttons to navigate to the left/negative pages to verify the Library loads correctly.
 
 ## Without Librarian Mod
-1. Follow the first 3 steps of [With Librarian](#with-librarian-mod)
+1. Follow the first 3 steps of [With Librarian Mod](#with-librarian-mod)
 2. Choose one of the new files, rename it to `hotbar.nbt` and move it to the root `.minecraft/` directory
    1. **WARNING**: *This will overwrite any existing hotbar file in the root directory. Please make a backup of any such file beforehand.*
 3. Launch or Re-Launch Minecraft 
