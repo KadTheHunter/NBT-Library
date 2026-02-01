@@ -1,5 +1,7 @@
 # NBT Library
-The NBT Library is a collection of hotbar files containing a wide array of Kits, Items and Books made with NBT Data/Components
+The NBT Library is a collection of hotbar files for Minecraft: Java Edition containing a wide array of Kits, Items, and Books made with NBT Data/Components
+
+Releases are **strictly** version-specific. Do **not** attempt to use the NBT Library on versions other than those specified for the given release.
 
 # Installation
 It is highly recommended that you use the [Librarian](https://modrinth.com/mod/librarian) mod by _videogamesm12_, which allows you to access the entire library at once via pagination, as well as have titles and important metadata for each page/hotbar.
@@ -89,10 +91,11 @@ To contribute to the NBT Library in other ways, i.e. bugfixes, title changes, re
 - DM your contribution to `@kaddicus` on [Discord](https://discord.com/invite/cfq25qURfv)
 
 # About NBT Library
-The NBT Library was created when its predecessor, [The Shulker Archives](https://github.com/KadTheHunter/ShulkerArchives) became increasingly difficult to maintain and update. The reasons mentioned above in [Updates](#updates) were amplified in The Shulker Archives by way of the sheer quantity of items, and the fact that entries were rarely ever removed. 
+The NBT Library was created when its predecessor, [The Shulker Archives](https://github.com/KadTheHunter/ShulkerArchives) became increasingly difficult to maintain and update. The reasons mentioned above in [Updates](#updates) were amplified in The Shulker Archives by the sheer quantity of items, and the fact that entries were rarely ever removed. 
 <br>This resulted in each update being a dice-roll as to how many items would loudly fail to update and log errors to the console, and how many items would *silently* fail to update, and just quietly be broken until someone noticed.
 
-By reducing the total number of entries, and effectively "containerizing" frequently problematic categories like [Utility / Abuse](#1-utility--abuse) (not to mention allowing the removal of entries as needed), the NBT Library makes it much easier to handle broken entries with each update.
+By reducing the total number of entries, and effectively "containerizing" error-prone categories like [Utility / Abuse](#1-utility--abuse) (not to mention allowing the removal of entries as needed), the NBT Library makes it much easier to handle broken entries with each update.
 
 Additionally, the NBT Library takes the "curated" aspect of The Shulker Archives, and actually makes it useful.
-<br>Entries are not only curated, with "slop" items being filtered out alongside anything outdated or useless, but are made far more accessible than before. No need to leave the world or server you're on just to go get an item: now you have every worthwhile item at your fingertips.
+<br>Entries are not just curated, with "slop" items being filtered out alongside anything outdated or useless, but are made far more accessible than before. No need to leave the world or server you're on just to go get an item: now you have every worthwhile item at your fingertips.
+
