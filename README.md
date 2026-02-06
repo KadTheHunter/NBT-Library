@@ -3,6 +3,9 @@ The NBT Library is a collection of hotbar files for Minecraft: Java Edition cont
 
 Releases are **strictly** version-specific. Do **not** attempt to use the NBT Library on versions other than those specified for the given release.
 
+Join our Discord server to be notified of updates, share your items, and interact with the community! <br>
+https://discord.gg/cfq25qURfv
+
 # Installation
 It is highly recommended that you use the [Librarian](https://modrinth.com/mod/librarian) mod by _videogamesm12_, which allows you to access the entire library at once via pagination, as well as have titles and important metadata for each page/hotbar.
 
