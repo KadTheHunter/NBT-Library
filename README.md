@@ -33,7 +33,7 @@ The NBT Library is intended for use in single-player or on applicable creative s
 
 By default, the Library is immutable, meaning you cannot add or remove entries without using the vanilla keybinds (and the Librarian mod prevents accidental overwriting). Entries can be copied from the Library to your inventory with normal Left, Middle or Right clicks.
 
-Users with [Better Saved Hotbars](https://modrinth.com/mod/better-saved-hotbars) installed should be wary of accidental modification of Library pages; Default BSH settings will **remove** entries on Middle click, and **add** entries when an item is Left or Right-clicked on an empty slot.
+Users with [Better Saved Hotbars](https://modrinth.com/mod/better-saved-hotbars-forked) installed should be wary of accidental modification of Library pages; Default BSH settings will **remove** entries on Middle click, and **add** entries when an item is Left or Right-clicked on an empty slot.
 
 Support will **not** be provided for using the NBT Library and its associated files/components outside the instructions detailed in [Installation](#installation), and intended usage in creative mode single or multi-player. Any such issues or requests (i.e. "How to use this in survival" or "Bedrock support?") will be immediately closed, locked and ignored.
 
