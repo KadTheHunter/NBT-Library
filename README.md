@@ -39,31 +39,31 @@ Support will **not** be provided for using the NBT Library and its associated fi
 
 ## Categories
 The NBT Library is currently divided into 9 categories:
-### 1. Utility / Abuse
+### -1. Utility / Abuse
    - Kits and Items deemed useful, or intended to abuse and exploit
    - Subdivided into Building, Functional, and Fun (for Utility), and All-In-One, Specific, Spawn Eggs, Spawners, and Command Blocks (for Abuse)
-### 2. PvP
+### -2. PvP
    - Kits and Items intended for Player vs Player combat
    - Subdivided into OP/NBT, Meme/Theme, and Related (for Kits), and Melee Weapons, Ranged Weapons, and Armor (for Items)
-### 3. Potions
+### -3. Potions
    - All types of Potions, 
    - Subdivided into Offensive, Neutral, Defensive, and Suicidal
-### 4. Fireworks / Spawn Eggs
+### -4. Fireworks / Spawn Eggs
    - Individual and Bulk Fireworks and Spawn Eggs
    - Subdivided into Single, Launcher, and Bundle/Box (for Fireworks), and Area Effect, Troll, Misc., Build, and Bundle/Box (for Spawn Eggs)
-### 5. Misc. Functional
+### -5. Misc. Functional
    - Kits and Items with functionality, but no definable category
    - Subdivided into Command Blocks, True Misc., and Fun (for Kits), and Command Block, Display Entities, and True Misc. (for Items)
-### 6. Lore / Non Func.
+### -6. Lore / Non Func.
    - Any Kit or Item where the primary feature is Lore, or there is no real feature.
    - Subdivided into S, A, B, and C tiers (for Lore), and Kits, and Items (for Non-Func.)
-### 7. Books
+### -7. Books
    - A small collection of interesting or useful books
    - Subdivided into Fiction, Misc. The Heptameron, and Utility
-### 8. SongPlayer
+### -8. SongPlayer
    - Items and Bundles/Kits of Items for use with the [SongPlayer](https://modrinth.com/mod/songplayer) mod.
    - Subdivided into Kits/Playlists, and Single Song Items
-### 9. Txsla / MarioKartWii
+### -9. Txsla / MarioKartWii
    - Kits and Items made by _txsla or MarioKartWii
    - Subdivided into Txsla, and MarioKartWii
 
