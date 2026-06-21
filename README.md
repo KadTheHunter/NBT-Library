@@ -38,7 +38,7 @@
 
 1. Follow steps 1-3 above
 2. Rename one `.nbt` file to `hotbar.nbt`
-3. Move it to the root `.minecraft/` directory (⚠️ **This overwrites existing hotbars—backup first!**)
+3. Move it to the root `.minecraft/` directory (⚠️ **This overwrites existing hotbars; Make a backup first!** ⚠️)
 4. Launch Minecraft
 
 > **Note:** Releases are strictly version-specific. A hotbar for 1.21.11 will not work on 1.21.4, and vice versa.
