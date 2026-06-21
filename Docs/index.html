@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBT Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+
+<!-- Sticky Navigation -->
+<nav class="navbar">
+    <div class="container nav-container">
+        <a href="#hero" class="nav-logo">NBT Library</a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#showcase">Showcase</a></li>
+            <li><a href="#disclaimer">Disclaimer</a></li>
+            <li><a href="https://github.com/KadTheHunter/NBT-Library/releases" class="nav-btn">Download</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <img src="assets/Logo.png" alt="NBT Library Logo" class="hero-logo">
+            <h1>NBT Library</h1>
+            <p class="hero-blurb">
+                A curated collection of Minecraft: Java Edition hotbar files, packed with custom NBT items, kits, and
+                books for your creative worlds.
+            </p>
+            <a href="https://github.com/KadTheHunter/NBT-Library/releases" class="btn-primary">
+                Download Latest Release
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About the Project</h2>
+            <p class="section-text">
+                The NBT Library is the successor to <a href="https://kadthehunter.github.io/ShulkerArchives/">The Shulker Archives</a>. Focused on a "quality over quantity"
+                approach, it provides meticulously curated hotbars full of items, kits, books, and more for your creative servers and single-player
+                worlds.
+            </p>
+
+            <h3>Categories</h3>
+            <div class="categories-grid">
+                <div class="card">
+                    <h4>Utility & Abuse</h4>
+                    <p>Kits and Items made to make life easier or harder for yourself and other players.</p>
+                </div>
+                <div class="card">
+                    <h4>PvP</h4>
+                    <p>Fully enchanted armor and weapons, for all forms of combat.</p>
+                </div>
+                <div class="card">
+                    <h4>Potions</h4>
+                    <p>Custom brewed potions with extended effects and levels.</p>
+                </div>
+                <div class="card">
+                    <h4>Fireworks & Spawn Eggs</h4>
+                    <p>Fireworks with custom explosions, and various unique spawn eggs.</p>
+                </div>
+                <div class="card">
+                    <h4>Misc. Functional</h4>
+                    <p>Items that have functionality, but don't fit into any other category.</p>
+                </div>
+                <div class="card">
+                    <h4>Lore & Non-Functional</h4>
+                    <p>Unique items with custom lore, but little or no functional purpose.</p>
+                </div>
+                <div class="card">
+                    <h4>Books</h4>
+                    <p>Player-written books, including Fiction, Non-Fiction, Command, and Abuse.</p>
+                </div>
+                <div class="card">
+                    <h4>SongPlayer</h4>
+                    <p>Items made for the SongPlayer mod, with song data encoded in them.</p>
+                </div>
+                <div class="card">
+                    <h4>MarioKartWii & Txsla</h4>
+                    <p>Kits and Items made by MarioKartWii and Txsla, two of the greatest item-makers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase Section -->
+    <section id="showcase" class="section section-alt">
+        <div class="container">
+            <h2>Showcase</h2>
+            <p class="section-text">A glimpse of what's included in the NBT Library.</p>
+
+            <div class="gallery-grid">
+                <a href="#lightbox-1" class="gallery-link">
+                    <figure class="gallery-item">
+                        <img src="assets/MKW12110Item.webp" alt="Loreart by MarioKartWii making use of Player Head Sprites and Shadow Colors" loading="lazy">
+                        <figcaption class="gallery-caption">
+                            <h4>MKW 1.21.10 Item</h4>
+                            <p>One of the best uses of Player Head Sprites in Item Lore to
+                                date.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="#lightbox-2" class="gallery-link">
+                    <figure class="gallery-item">
+                        <img src="assets/HeliosProtocol.png" alt="Tooltip for the Helios Protocol item by PiggoPotamus" loading="lazy">
+                        <figcaption class="gallery-caption">
+                            <h4>The Helios Protocol</h4>
+                            <p>A fully vanilla recreation of Cymaera's "Sky Torch" plugin.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="#lightbox-3" class="gallery-link">
+                    <figure class="gallery-item">
+                        <img src="assets/HeliosProtocolInAction.webp" alt="The Helios Protocol in action" loading="lazy">
+                        <figcaption class="gallery-caption">
+                            <h4>The Helios Protocol in action</h4>
+                            <p>A fully vanilla recreation of Cymaera's "Sky Torch" plugin.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="#lightbox-4" class="gallery-link">
+                    <figure class="gallery-item">
+                        <img src="assets/MonaLisaInAction.webp" alt="Mona Lisa made with Display Entities and generated by 1ClickProsekunde" loading="lazy">
+                        <figcaption class="gallery-caption">
+                            <h4>Mona Lisa</h4>
+                            <p>Block Display generated from a Command Block by 1ClickProsekunde.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="#lightbox-5" class="gallery-link">
+                    <figure class="gallery-item">
+                        <img src="assets/TheKey.webp" alt="Tooltip for 'The Key' item by 1ClickProsekunde" loading="lazy">
+                        <figcaption class="gallery-caption">
+                            <h4>The Key</h4>
+                            <p>In the right hands, NBT can often be a form of art.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="#lightbox-6" class="gallery-link">
+                    <figure class="gallery-item">
+                        <img src="assets/aestheticKit.png" alt="Tooltip for the aesthetic Kit by videogamesm12" loading="lazy">
+                        <figcaption class="gallery-caption">
+                            <h4>aesthetic Kit</h4>
+                            <p>Designed by videogamesm12, inspired by terminal interfaces.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="#lightbox-7" class="gallery-link">
+                    <figure class="gallery-item">
+                        <img src="assets/WaterMark.png" alt="Tooltip for the Water Mark potion by OperatorTheDope" loading="lazy">
+                        <figcaption class="gallery-caption">
+                            <h4>Water Mark</h4>
+                            <p>Your personal Mr. Water!</p>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="#lightbox-8" class="gallery-link">
+                    <figure class="gallery-item">
+                        <img src="assets/Breadward.webp" alt="Breadward loreart by LeoTheRavioli" loading="lazy">
+                        <figcaption class="gallery-caption">
+                            <h4>Breadward</h4>
+                            <p>The best Loreart ever created.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="#lightbox-9" class="gallery-link">
+                    <figure class="gallery-item">
+                        <img src="assets/SunsetLeoInAction.webp" alt="Sunset Firework from LeoTheRavioli's 'Nature' box mid-explosion" loading="lazy">
+                        <figcaption class="gallery-caption">
+                            <h4>Sunset Firework</h4>
+                            <p>From LeoTheRavioli's "Nature" box.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Disclaimer Section -->
+    <section id="disclaimer" class="section">
+        <div class="container">
+            <h2>Disclaimer</h2>
+            <div class="disclaimer-box">
+                <ul>
+                    <li><strong>Version Specific:</strong> Releases are strictly tied to specific Minecraft Java Edition versions and will not work on others.</li>
+                    <li><strong>Creative Only:</strong> Files are intended strictly for Creative mode usage in single-player or multiplayer worlds.</li>
+                    <li><strong>No Survival/Bedrock:</strong> Survival mode and Minecraft Bedrock Edition are not supported.</li>
+                    <li><strong>Use at Your Own Risk:</strong> Some items can cause lag, crashes, or corruption. The author is not responsible for damaged worlds or servers.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p>Authored by <a href="https://github.com/KadTheHunter">KadTheHunter</a>. Released into the public domain via the Unlicense.</p>
+        <p><a href="https://github.com/KadTheHunter/NBT-Library">GitHub</a> • <a href="https://discord.gg/cfq25qURfv">Discord</a></p>
+    </div>
+</footer>
+
+<!-- Lightboxes -->
+<span id="!" style="display: none;"></span> <!-- This is purely to silence WebStorm warnings -->
+
+<div id="lightbox-1" class="lightbox">
+    <a href="#!" class="lightbox-overlay"></a>
+
+    <a href="#!" class="lightbox-close">&times;</a>
+    <img src="assets/MKW12110Item.webp" alt="Loreart by MarioKartWii making use of Player Head Sprites and Shadow Colors">
+</div>
+
+<div id="lightbox-2" class="lightbox">
+    <a href="#!" class="lightbox-overlay"></a>
+
+    <a href="#!" class="lightbox-close">&times;</a>
+    <img src="assets/HeliosProtocol.png" alt="Tooltip for the Helios Protocol item by PiggoPotamus">
+</div>
+
+<div id="lightbox-3" class="lightbox">
+    <a href="#!" class="lightbox-overlay"></a>
+
+    <a href="#!" class="lightbox-close">&times;</a>
+    <img src="assets/HeliosProtocolInAction.webp" alt="The Helios Protocol in action">
+</div>
+
+<div id="lightbox-4" class="lightbox">
+    <a href="#!" class="lightbox-overlay"></a>
+
+    <a href="#!" class="lightbox-close">&times;</a>
+    <img src="assets/MonaLisaInAction.webp" alt="Mona Lisa made with Display Entities and generated by 1ClickProsekunde">
+</div>
+
+<div id="lightbox-5" class="lightbox">
+    <a href="#!" class="lightbox-overlay"></a>
+
+    <a href="#!" class="lightbox-close">&times;</a>
+    <img src="assets/TheKey.webp" alt="Tooltip for 'The Key' item by 1ClickProsekunde">
+</div>
+
+<div id="lightbox-6" class="lightbox">
+    <a href="#!" class="lightbox-overlay"></a>
+
+    <a href="#!" class="lightbox-close">&times;</a>
+    <img src="assets/aestheticKit.png" alt="Tooltip for the aesthetic Kit by videogamesm12">
+</div>
+
+<div id="lightbox-7" class="lightbox">
+    <a href="#!" class="lightbox-overlay"></a>
+
+    <a href="#!" class="lightbox-close">&times;</a>
+    <img src="assets/WaterMark.png" alt="Tooltip for the Water Mark potion by OperatorTheDope">
+</div>
+
+<div id="lightbox-8" class="lightbox">
+    <a href="#!" class="lightbox-overlay"></a>
+
+    <a href="#!" class="lightbox-close">&times;</a>
+    <img src="assets/Breadward.webp" alt="Breadward loreart by LeoTheRavioli">
+</div>
+
+<div id="lightbox-9" class="lightbox">
+    <a href="#!" class="lightbox-overlay"></a>
+
+    <a href="#!" class="lightbox-close">&times;</a>
+    <img src="assets/SunsetLeoInAction.webp" alt="Sunset Firework from LeoTheRavioli's 'Nature' box mid-explosion">
+</div>
+
+</body>
+</html>
