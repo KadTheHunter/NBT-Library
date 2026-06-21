@@ -47,7 +47,8 @@ a {
 
 .nav-links a,
 .btn-primary,
-.nav-btn {
+.nav-btn,
+.nav-logo {
     text-decoration: none;
 }
 
@@ -175,10 +176,6 @@ a:hover {
     padding: 4rem 0;
 }
 
-.section-alt {
-    background: var(--bg-alt);
-}
-
 .section h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -228,6 +225,90 @@ a:hover {
 
 .card p {
     color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+/* ====================
+   INSTALLATION SECTION
+   ==================== */
+
+.prerequisite-box {
+    background: rgba(239, 68, 68, 0.1);
+    border-left: 4px solid #ef4444;
+    padding: 1.25rem;
+    border-radius: 0 8px 8px 0;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+}
+
+.prerequisite-box strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    color: #f87171;
+}
+
+.prerequisite-box p {
+    color: var(--text-muted);
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.install-steps {
+    padding-left: 1.5rem;
+    color: var(--text-muted);
+    line-height: 1.8;
+}
+
+.install-steps li {
+    margin-bottom: 1rem;
+}
+
+.install-steps strong {
+    color: var(--text-color);
+}
+
+.install-steps code {
+    background: var(--card-bg);
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 0.9em;
+    color: var(--accent-color);
+}
+
+.step-note {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-top: 0.25rem;
+    font-style: italic;
+}
+
+.tips-box {
+    background: rgba(59, 130, 246, 0.1); /* Slight blue tint */
+    border-left: 4px solid #3b82f6;
+    padding: 1.25rem;
+    border-radius: 0 8px 8px 0;
+    margin-top: 2rem;
+    color: var(--text-color);
+}
+
+.tips-box strong {
+    display: block;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+    color: #60a5fa;
+}
+
+.tips-box ul {
+    margin: 0;
+    padding-left: 1.5rem;
+    color: var(--text-muted);
+}
+
+.tips-box li {
+    margin-bottom: 0.5rem;
     font-size: 0.95rem;
 }
 
@@ -425,9 +506,5 @@ a:hover {
 
     .nav-links li:not(:last-child) {
         display: none;
-    }
-
-    .carousel-item {
-        flex: 0 0 90%;
     }
 }
