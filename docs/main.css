@@ -40,8 +40,15 @@ img {
 
 a {
     color: var(--accent-color);
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: 2px;
     transition: opacity 0.2s;
+}
+
+.nav-links a,
+.btn-primary,
+.nav-btn {
+    text-decoration: none;
 }
 
 a:hover {
@@ -151,6 +158,16 @@ a:hover {
     opacity: 1;
 }
 
+.hero-subtext {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+}
+
+.hero-subtext a {
+    color: var(--accent-color);
+}
+
 /* ================
    GENERAL SECTIONS
    ================ */
@@ -253,9 +270,10 @@ a:hover {
     background: var(--card-bg);
 }
 
-.gallery-caption h4 {
+.gallery-caption h3 {
     color: var(--accent-color);
     font-size: 1.1rem;
+    margin-top: 0;
     margin-bottom: 0.5rem;
     font-weight: 600;
 }
