@@ -312,6 +312,24 @@ a:hover {
     font-size: 0.95rem;
 }
 
+/* ============
+   CONTRIBUTING
+   ============
+ */
+.contributing-list {
+    padding-left: 1.5rem;
+    color: var(--text-muted);
+    line-height: 1.8;
+}
+
+.contributing-list li {
+    margin-bottom: 1rem;
+}
+
+.contributing-list strong {
+    color: var(--text-color);
+}
+
 /* ================
    SHOWCASE GALLERY
    ================ */
