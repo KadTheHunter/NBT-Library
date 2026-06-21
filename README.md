@@ -1,104 +1,147 @@
-# NBT Library
-The NBT Library is a collection of hotbar files for Minecraft: Java Edition containing a wide array of Kits, Items, and Books made with NBT Data/Components
+<p align="center">
+  <img src="docs/assets/Logo.png" alt="NBT Library Logo" width="100" height="100">
+</p>
 
-Releases are **strictly** version-specific. Do **not** attempt to use the NBT Library on versions other than those specified for the given release.
+<h1 align="center">NBT Library</h1>
 
-Join our Discord server to be notified of updates, share your items, and interact with the community! <br>
-https://discord.gg/cfq25qURfv
+<p align="center">
+  A curated collection of hotbar files for Minecraft: Java Edition containing custom NBT items, kits, books, and more.
+</p>
 
-# Installation
-It is highly recommended that you use the [Librarian](https://modrinth.com/mod/librarian) mod by _videogamesm12_, which allows you to access the entire library at once via pagination, as well as have titles and important metadata for each page/hotbar.
+<p align="center">
+  <a href="https://kadthehunter.github.io/NBT-Library/">🌐 Visit the Website</a> • 
+  <a href="https://discord.gg/cfq25qURfv">💬 Discord</a> • 
+  <a href="https://github.com/KadTheHunter/NBT-Library/releases/latest/">📥 Download</a>
+</p>
 
-The Library is still usable without Librarian, but you will have to manually rename one of the files to `hotbar.nbt`, move it to the root `.minecraft/` directory, and relaunch Minecraft in order to use it.
+---
 
-Please note that the NBT Library is for **Java Edition**. It will **not** work on Bedrock Edition. Furthermore, support will not be provided to users attempting to run Java Edition on a mobile device.
+## 📥 Installation
 
-## With Librarian Mod
-1. Download the NBT Library from [Releases](https://github.com/KadTheHunter/NBT-Library/releases)
-2. Extract the `NBT-Library-X.X.X.zip` file, then move the contents of the `NBT-Library-X.X.X` folder to `.minecraft/hotbars/`
-3. If done correctly, you should see a number of new files, named `hotbar.-1.nbt`, `hotbar.-2.nbt`, etc.
-   1. If you're *not* using Librarian, please jump to step 2 of [Without Librarian Mod](#without-librarian-mod)
-4. Launch Minecraft *or* run `/lb cache clear`
-5. Open the Hotbars tab of the Creative Inventory, and use the arrow buttons to navigate to the left/negative pages to verify the Library loads correctly.
+### Prerequisites
 
-## Without Librarian Mod
-1. Follow the first 3 steps of [With Librarian Mod](#with-librarian-mod)
-2. Choose one of the new files, rename it to `hotbar.nbt` and move it to the root `.minecraft/` directory
-   1. **WARNING**: *This will overwrite any existing hotbar file in the root directory. Please make a backup of any such file beforehand.*
-3. Launch or Re-Launch Minecraft 
-4. Open the Hotbars tab of the Creative Inventory, to verify the hotbar loaded correctly.
+- **Minecraft: Java Edition** (Bedrock not supported)
+- **[Librarian Mod](https://modrinth.com/mod/librarian)** by videogamesm12 (highly recommended)
+   - Allows pagination and displays titles/metadata for each hotbar
+   - Without it, you can only use one hotbar at a time
 
-# Usage
-The NBT Library is intended for use in single-player or on applicable creative servers. All entries are divided and subdivided into [Categories](#categories), each of which is a single "Page" (hotbar file). 
+### Steps
 
-By default, the Library is immutable, meaning you cannot add or remove entries without using the vanilla keybinds (and the Librarian mod prevents accidental overwriting). Entries can be copied from the Library to your inventory with normal Left, Middle or Right clicks.
+1. **Download** the latest release from [GitHub Releases](https://github.com/KadTheHunter/NBT-Library/releases/latest/)
+2. **Extract** the `.zip` file
+3. **Move** the `.nbt` files to `.minecraft/hotbars/`
+   - You should see files like `hotbar.-1.nbt`, `hotbar.-2.nbt`, etc.
+4. **Launch** Minecraft or run `/lb cache clear` in-game
+5. **Open** the Hotbars tab in Creative Inventory and navigate to negative pages
 
-Users with [Better Saved Hotbars](https://modrinth.com/mod/better-saved-hotbars-forked) installed should be wary of accidental modification of Library pages; Default BSH settings will **remove** entries on Middle click, and **add** entries when an item is Left or Right-clicked on an empty slot.
+### Without Librarian
 
-Support will **not** be provided for using the NBT Library and its associated files/components outside the instructions detailed in [Installation](#installation), and intended usage in creative mode single or multi-player. Any such issues or requests (i.e. "How to use this in survival" or "Bedrock support?") will be immediately closed, locked and ignored.
+1. Follow steps 1-3 above
+2. Rename one `.nbt` file to `hotbar.nbt`
+3. Move it to the root `.minecraft/` directory (⚠️ **This overwrites existing hotbars—backup first!**)
+4. Launch Minecraft
 
-## Categories
-The NBT Library is currently divided into 9 categories:
+> **Note:** Releases are strictly version-specific. A hotbar for 1.21.11 will not work on 1.21.4, and vice versa.
+
+---
+
+## 📚 Categories
+
+The library is organized into 9 categories, each accessible as a separate hotbar page:
+
 ### -1. Utility / Abuse
-   - Kits and Items deemed useful, or intended to abuse and exploit
-   - Subdivided into Building, Functional, and Fun (for Utility), and All-In-One, Specific, Spawn Eggs, Spawners, and Command Blocks (for Abuse)
+Kits and items for convenience or exploitation.
+- **Utility:** Building, Functional, Fun
+- **Abuse:** All-In-One, Specific, Spawn Eggs, Spawners, Command Blocks
+
 ### -2. PvP
-   - Kits and Items intended for Player vs Player combat
-   - Subdivided into OP/NBT, Meme/Theme, and Related (for Kits), and Melee Weapons, Ranged Weapons, and Armor (for Items)
+Combat-focused kits and items.
+- **Kits:** OP/NBT, Meme/Theme, Related
+- **Items:** Melee Weapons, Ranged Weapons, Armor
+
 ### -3. Potions
-   - All types of Potions, 
-   - Subdivided into Offensive, Neutral, Defensive, and Suicidal
+All potion types with custom effects.
+- Offensive, Neutral, Defensive, Suicidal
+
 ### -4. Fireworks / Spawn Eggs
-   - Individual and Bulk Fireworks and Spawn Eggs
-   - Subdivided into Single, Launcher, and Bundle/Box (for Fireworks), and Area Effect, Troll, Misc., Build, and Bundle/Box (for Spawn Eggs)
+Custom explosions and unique mobs.
+- **Fireworks:** Single, Launcher, Bundle/Box
+- **Spawn Eggs:** Area Effect, Troll, Misc., Build, Bundle/Box
+
 ### -5. Misc. Functional
-   - Kits and Items with functionality, but no definable category
-   - Subdivided into Command Blocks, True Misc., and Fun (for Kits), and Command Block, Display Entities, and True Misc. (for Items)
-### -6. Lore / Non Func.
-   - Any Kit or Item where the primary feature is Lore, or there is no real feature.
-   - Subdivided into S, A, B, and C tiers (for Lore), and Kits, and Items (for Non-Func.)
+Functional items that don't fit elsewhere.
+- **Kits:** Command Blocks, True Misc., Fun
+- **Items:** Command Block, Display Entities, True Misc.
+
+### -6. Lore / Non-Functional
+Items focused on lore or aesthetics.
+- **Lore:** S, A, B, C tiers
+- **Non-Func.:** Kits, Items
+
 ### -7. Books
-   - A small collection of interesting or useful books
-   - Subdivided into Fiction, Misc. The Heptameron, and Utility
+Player-written books.
+- Fiction, Misc. The Heptameron, Utility
+
 ### -8. SongPlayer
-   - Items and Bundles/Kits of Items for use with the [SongPlayer](https://modrinth.com/mod/songplayer) mod.
-   - Subdivided into Kits/Playlists, and Single Song Items
+Items for the [SongPlayer mod](https://modrinth.com/mod/songplayer).
+- Kits/Playlists, Single Song Items
+
 ### -9. Txsla / MarioKartWii
-   - Kits and Items made by _txsla or MarioKartWii
-   - Subdivided into Txsla, and MarioKartWii
+Items by Txsla and MarioKartWii.
 
- _These categories and subdivisions are subject to change with any update, and are created and modified at the current Librarian's discretion._
+> Categories and subdivisions are subject to change at the curator's discretion.
 
-# Updates
-The NBT Library will try to update to new versions of Minecraft as quickly as possible. 
+---
 
-Due to the increasingly version-specific nature of NBT, and Mojangs unfortunate habit of omitting important and breaking changes to NBT from the changelog/patch-notes, updates may take a week or more.
+## 🤝 Contributing
 
-Library entries can and will be removed between updates as needed. Unlike its predecessor "The Shulker Archives", the NBT Library is not focused on forcing every item to update and work on the newest version; Instead, items are removed if they are broken or outdated, and ideally are replaced with newer, working items.
+Contributions are welcome! Please use **only one** of the following methods to avoid duplicates:
 
-# Contributing
-Contributions to the NBT Library are welcome!
+### New Entries
+1. **GitHub Issues:** Use the [Submit Entry](https://github.com/KadTheHunter/NBT-Library/issues/new/choose) template
+2. **Discord:** Post in `#new-items` channel or DM `@kaddicus`
 
-## Entries
-To contribute entries to the NBT Library, please do one of the following:
-- Open an issue here using the [Submit Entry](https://github.com/KadTheHunter/NBT-Library/issues/new/choose) Template
-- Post your entry in the [Discord](https://discord.com/invite/cfq25qURfv) Server, `#new-items` channel
-- DM your entry to `@kaddicus` on [Discord](https://discord.com/invite/cfq25qURfv)
+### Other Changes (Bugfixes, Recategorization, etc.)
+1. **GitHub Issues:** Use the [Other Contribution](https://github.com/KadTheHunter/NBT-Library/issues/new/choose) template
 
-Please only do *one* of these! Creating duplicate submissions will vastly reduce the odds of your entry being accepted into the NBT Library.
+**Discord:** https://discord.gg/cfq25qURfv
 
-## Bugfixes, Changes, Recategorization, etc.
-To contribute to the NBT Library in other ways, i.e. bugfixes, title changes, recategorizing entries, improving this README, etc., please do one of the following:
-- Open an issue here using the [Other Contribution](https://github.com/KadTheHunter/NBT-Library/issues/new/choose) Template
-- Make a post on the [Discord](https://discord.com/invite/cfq25qURfv), `#library-discussion` forum
-- DM your contribution to `@kaddicus` on [Discord](https://discord.com/invite/cfq25qURfv)
+---
 
-# About NBT Library
-The NBT Library was created when its predecessor, [The Shulker Archives](https://github.com/KadTheHunter/ShulkerArchives) became increasingly difficult to maintain and update. The reasons mentioned above in [Updates](#updates) were amplified in The Shulker Archives by the sheer quantity of items, and the fact that entries were rarely ever removed. 
-<br>This resulted in each update being a dice-roll as to how many items would loudly fail to update and log errors to the console, and how many items would *silently* fail to update, and just quietly be broken until someone noticed.
+## 🔄 Updates
 
-By reducing the total number of entries, and effectively "containerizing" error-prone categories like [Utility / Abuse](#1-utility--abuse) (not to mention allowing the removal of entries as needed), the NBT Library makes it much easier to handle broken entries with each update.
+The NBT Library updates to new Minecraft versions as quickly as possible, though this may take a week or more due to NBT changes.
 
-Additionally, the NBT Library takes the "curated" aspect of The Shulker Archives, and actually makes it useful.
-<br>Entries are not just curated, with "slop" items being filtered out alongside anything outdated or useless, but are made far more accessible than before. No need to leave the world or server you're on just to go get an item: now you have every worthwhile item at your fingertips.
+**Key differences from The Shulker Archives:**
+- Items are **removed** if broken or outdated (not forced to update)
+- Focus on **quality over quantity**
+- Error-prone categories are "containerized" for easier maintenance
 
+---
+
+## 📖 About
+
+The NBT Library is the successor to [The Shulker Archives](https://kadthehunter.github.io/ShulkerArchives/), created to address maintenance challenges:
+
+- **Reduced scope:** Fewer total entries, easier to maintain
+- **Curated quality:** "Slop" items filtered out alongside outdated content
+- **Accessibility:** All items available in-game via Librarian, no need to leave your world or server
+
+---
+
+## ⚠️ Disclaimer
+
+- **Version Specific:** Tied to specific Minecraft Java Edition versions
+- **Creative Only:** Intended for Creative mode single/multiplayer
+- **No Survival/Bedrock:** Not supported
+- **Use at Your Own Risk:** Some items can cause lag, crashes, or corruption
+
+---
+
+## 📄 License
+
+Released into the public domain via the [Unlicense](LICENSE).
+
+---
+
+**Links:** [Website](https://kadthehunter.github.io/NBT-Library/) • [Discord](https://discord.gg/cfq25qURfv) • [Releases](https://github.com/KadTheHunter/NBT-Library/releases)
