@@ -29,10 +29,10 @@
 
 1. **Download** the latest release from [GitHub Releases](https://github.com/KadTheHunter/NBT-Library/releases/latest/)
 2. **Extract** the `.zip` file
-3. **Move** the `.nbt` files to `.minecraft/hotbars/`
+3. **Move** the `.nbt` files to `.minecraft/hotbars/`, creating the `hotbars/` folder if it doesn't exist.
    - You should see files like `hotbar.-1.nbt`, `hotbar.-2.nbt`, etc.
 4. **Launch** Minecraft or run `/lb cache clear` in-game
-5. **Open** the Hotbars tab in Creative Inventory and navigate to negative pages
+5. **Open** the Hotbars tab in the Creative Inventory and navigate to the negative pages
 
 ### Without Librarian
 
